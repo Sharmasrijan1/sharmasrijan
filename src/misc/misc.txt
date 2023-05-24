@@ -1,0 +1,41 @@
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <Card title="Hayase">
+        <p className="font-['Fira_Sans'] text-lg font-semibold px-4 text-gray-400">Language: JavaScript</p>
+        <p className="font-['Fira_Sans'] text-[#6c6f85] dark:text-gray-300 text-xl px-4">a functional Discord bot written in JavaScript using Discord.js made to <s>bully you</s>, tease you and play with you Senpai...</p>
+        <div className="text-amber-300 flex items-center mx-4 mb-4 pt-2">
+            <HiOutlineFire className="text-2xl mr-2"/>
+            <p className="font-['Fira_Sans'] text-xl text-semibold ">Looking for contributors</p>
+        </div>
+        <ExternalButton href="https://gitlab.com/voltages/hayase"/>
+    </Card>
+    <Card title="Akasuki">
+        <p className="font-['Fira_Sans'] mx-4 text-lg font-semibold text-gray-400">Language: JavaScript</p>
+        <p className="font-['Fira_Sans'] mx-4 text-[#6c6f85] dark:text-gray-300 text-xl">Discord Bot written in Discord.js using Node.js. Here to assist you in finding inspiration from other's work on <a className="hover:underline" target="_blank" href="https://anime.pics" rel="noopener noreferrer">https://anime.pics</a> <br/><br/> The name Akasuki means bright helper.</p>
+        <ExternalButton href="https://gitlab.com/voltages/akasuki"/>
+    </Card>
+    <Card title="voltages.me">
+        <p className="font-['Fira_Sans'] mx-4 text-lg font-semibold text-gray-400">Language: JavaScript/TypeScript<br/>Frameworks: React, Next.js </p>
+        <p className="font-['Fira_Sans'] mx-4 text-[#6c6f85] dark:text-gray-300 text-xl">Personal website for my projects and about myself. <br/><br/> I have rewritten this multiple times now.</p>
+        <ExternalButton href="https://gitlab.com/voltages/voltages.me"/>
+    </Card>
+    <Card title="Inception">
+        <p className="font-['Fira_Sans'] mx-4 text-lg font-semibold text-gray-400">Language: JavaScript</p>
+        <p className="font-['Fira_Sans'] mx-4 text-[#6c6f85] dark:text-gray-300 text-xl">A coub downloader (CLI) and dynamic encoder that uses JavaScript, Nodejs, Axios, FFmpeg, ffprobe-client.</p>
+        <ExternalButton href="https://github.com/v4ltages/Inception"/>
+    </Card>
+    <Card title="next-personal-web-template">
+        <p className="font-['Fira_Sans'] mx-4 text-lg font-semibold text-gray-400">Language: JavaScript/TypeScript<br/>Frameworks: React, Next.js </p>
+        <p className="font-['Fira_Sans'] mx-4 text-[#6c6f85] dark:text-gray-300 text-xl">A personal website template using TypeScript, Next.js + other useful packages. Kickstart ur own personal website, without the hassle of having to set up and configure a new project while also having to design the whole website.</p>
+        <ExternalButton href="https://github.com/v4ltages/next-personal-web-template"/>
+    </Card>
+    <Card title="spotify">
+        <p className="font-['Fira_Sans'] mx-4 text-lg font-semibold text-gray-400">Language: JavaScript/TypeScript<br/>Frameworks: React, Next.js </p>
+        <p className="font-['Fira_Sans'] mx-4 text-[#6c6f85] dark:text-gray-300 text-xl">Display's what ur currently playing on Spotify with Lanyard.<br/><br/> This is something i decided to refactor for fun, need to solve a few things and perhaps make some improvements.</p>
+        <ExternalButton href="https://github.com/v4ltages/spotify"/>
+    </Card>
+    <Card title="watip [Weather at IP]">
+        <p className="font-['Fira_Sans'] mx-4 text-lg font-semibold text-gray-400">Language: JavaScript/TypeScript<br/>Frameworks: React, Next.js </p>
+        <p className="font-['Fira_Sans'] mx-4 text-[#6c6f85] dark:text-gray-300 text-xl">Really simplistic website that shows the current weather at ur IPs geolocation.</p>
+        <ExternalButton href="https://github.com/v4ltages/watip"/>
+    </Card>
+</div>
