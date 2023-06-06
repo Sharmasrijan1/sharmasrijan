@@ -43,7 +43,7 @@ const Home: NextPage = () => {
                             </Suspense>
                         </div>
                         <div>
-                            <p className="sm:pl-4 pb-2 font-[Rubik] font-normal text-2xl">Hey, I&#39;m Sharmasrijan <span className="wave">👋🏻</span></p>
+                            <p className="sm:pl-4 pb-2 font-[Rubik] font-normal text-2xl">Hey, I&#39;m Shamasrijan <span className="wave">👋🏻</span></p>
                             <p className="sm:pl-4 font-['Fira_Sans'] font-normal text-xl text-[#6c6f85] dark:text-gray-300">High School student, intermediate programmer, 15 year's old and a otaku</p>
                             <Suspense fallback={``}>
                                 <Quotes />
