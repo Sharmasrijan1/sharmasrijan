@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { useLanyardWS } from 'use-lanyard';
 import { createContext } from 'react';
 
-const DISCORD_ID = '692797785061326858' // sharmasrijan#7005
+const DISCORD_ID = '481243928545329159' // sharmasrijan#7005
 
 export const AppContext = createContext<ReturnType<typeof useLanyardWS> | null>(null);
 
