@@ -26,6 +26,7 @@ const Etc: NextPage = () => {
                             <span className="pl-2 text-lg font-['Fira_Sans'] font-semibold">My Anilist</span>
                         </a>
                     </div>
+                    <p className="font-['Fira_Sans'] text-[#6c6f85] dark:text-gray-300 text-xl pb-4">Last Updated: 27th Of June 2023</p>
                 </motion.div>
             </div>
             <Footer />
